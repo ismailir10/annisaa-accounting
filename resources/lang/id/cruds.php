@@ -63,6 +63,8 @@ return [
             'updated_at_helper'        => '',
             'deleted_at'               => 'Deleted at',
             'deleted_at_helper'        => '',
+            'approved'                 => 'Approved',
+            'approved_helper'          => '',
         ],
     ],
     'auditLog'          => [
@@ -192,11 +194,11 @@ return [
         ],
     ],
     'expenseManagement' => [
-        'title'          => 'Manajemen biaya',
-        'title_singular' => 'Manajemen biaya',
+        'title'          => 'Manajemen Transaksi',
+        'title_singular' => 'Manajemen Transaksi',
     ],
     'expenseCategory'   => [
-        'title'          => 'Kategori Biaya',
+        'title'          => 'Jenis Pengeluaran',
         'title_singular' => 'Kategori Pengeluaran',
         'fields'         => [
             'id'                => 'ID',
@@ -212,7 +214,7 @@ return [
         ],
     ],
     'incomeCategory'    => [
-        'title'          => 'Kategori pendapatan',
+        'title'          => 'Tarif',
         'title_singular' => 'Kategori Penghasilan',
         'fields'         => [
             'id'                => 'ID',
@@ -228,7 +230,7 @@ return [
         ],
     ],
     'expense'           => [
-        'title'          => 'Beban',
+        'title'          => 'Pengeluaran',
         'title_singular' => 'Biaya',
         'fields'         => [
             'id'                      => 'ID',
@@ -252,8 +254,8 @@ return [
         ],
     ],
     'income'            => [
-        'title'          => 'Pendapatan',
-        'title_singular' => 'Pendapatan',
+        'title'          => 'Transaksi',
+        'title_singular' => 'Transaksi',
         'fields'         => [
             'id'                     => 'ID',
             'id_helper'              => '',
@@ -282,9 +284,9 @@ return [
             'title'             => 'Laporan',
             'title_singular'    => 'Laporan',
             'incomeReport'      => 'Laporan pendapatan',
-            'incomeByCategory'  => 'Pendapatan berdasarkan Kategori',
-            'expenseByCategory' => 'Pengeluaran berdasarkan Kategori',
-            'income'            => 'Pendapatan',
+            'incomeByCategory'  => 'Pendapatan berdasarkan Tujuan',
+            'expenseByCategory' => 'Pengeluaran berdasarkan Jenis',
+            'income'            => 'Transaksi',
             'expense'           => 'Biaya',
             'profit'            => 'Keuntungan',
         ],

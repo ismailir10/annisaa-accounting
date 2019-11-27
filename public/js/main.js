@@ -17,17 +17,35 @@ $(document).ready(function () {
 
   $('.date').datetimepicker({
     format: 'DD-MM-YYYY',
-    locale: 'en'
+    locale: 'en',
+    icons: {
+      up: 'fas fa-chevron-up',
+      down: 'fas fa-chevron-down',
+      previous: 'fas fa-chevron-left',
+      next: 'fas fa-chevron-right'
+    }
   })
 
   $('.datetime').datetimepicker({
     format: 'DD-MM-YYYY HH:mm:ss',
     locale: 'en',
-    sideBySide: true
+    sideBySide: true,
+    icons: {
+      up: 'fas fa-chevron-up',
+      down: 'fas fa-chevron-down',
+      previous: 'fas fa-chevron-left',
+      next: 'fas fa-chevron-right'
+    }
   })
 
   $('.timepicker').datetimepicker({
-    format: 'HH:mm:ss'
+    format: 'HH:mm:ss',
+    icons: {
+      up: 'fas fa-chevron-up',
+      down: 'fas fa-chevron-down',
+      previous: 'fas fa-chevron-left',
+      next: 'fas fa-chevron-right'
+    }
   })
 
   $('.select-all').click(function () {
